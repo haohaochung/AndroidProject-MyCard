@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TableRow android:layout_weight="1" >
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_margin="2sp"
+            android:background="@drawable/retangle_drawable"
+            android:padding="6sp"
+            android:text="Title"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/title_text"
+            android:layout_margin="2sp"
+            android:layout_weight="1"
+            android:background="@drawable/retangle_drawable"
+            android:padding="6sp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="50dp"
+            android:layout_margin="2sp"
+            android:background="@drawable/retangle_drawable"
+            android:padding="6sp"
+            android:text="@string/kindOf"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/mySpinner"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawSelectorOnTop="true"
+            android:entries="@array/mytypes_array"
+            android:prompt="@string/mytype_prompt" />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_margin="2sp"
+            android:background="@drawable/retangle_drawable"
+            android:padding="6sp"
+            android:text="內容"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/content_text"
+            android:layout_margin="2sp"
+            android:layout_weight="1"
+            android:background="@drawable/retangle_drawable"
+            android:padding="6sp"
+            android:textAppearance="?android:attr/textAppearanceMedium" >
+
+            <requestFocus />
+        </EditText>
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/album"
+                android:layout_width="75dp"
+                android:layout_height="80dp"
+                android:src="@drawable/in_pictures" />
+
+            <ImageButton
+                android:id="@+id/take_picture"
+                android:layout_width="75dp"
+                android:layout_height="80dp"
+                android:src="@drawable/use_camera" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="187dp"
+            android:src="@drawable/ic_launcher" />
+    </LinearLayout>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onSubmit"
+            android:text="@string/enter" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onSubmit"
+            android:text="@string/cancel" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="" />
+
+</TableLayout>

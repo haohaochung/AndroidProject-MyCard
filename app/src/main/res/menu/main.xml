@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.cardcamera.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:icon="@drawable/about_us"
+        android:title="@string/action_settings"
+        android:onClick="clickMenuItem"/>
+    
+     <item
+       android:id="@+id/add_item"
+       android:showAsAction="always"
+       android:icon="@drawable/ic_action_add_to_queue"
+       android:title="@string/plus"
+       android:onClick="clickMenuItem" />   
+       
+     <item
+       android:id="@+id/en"
+       android:showAsAction="never"
+       android:title="@string/english"
+       android:onClick="clickMenuItem" />
+     
+     <item
+       android:id="@+id/ch"
+       android:showAsAction="never"
+       android:title="@string/chinese"
+       android:onClick="clickMenuItem" />
+
+</menu>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyCard</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">About MyCard</string>
+    <string name="plus">plus</string>
+    <string name="title_activity_item">new cards</string>
+    <string name="title_activity_home">  </string>
+    <string name="english">English</string>
+    <string name="chinese">中文</string>
+    <string name="enter">Enter</string>
+    <string name="cancel">Cancel</string>
+    
+     <string name="sentence1">MyCard is a versatile card-collecter.</string>
+     <string name ="sentence2">Do not keep so many cards with you. </string>
+     <string name="sentence3">JUST use the MyCard !!</string>
+    
+    
+
+</resources>

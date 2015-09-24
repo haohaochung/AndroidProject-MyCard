@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyCard</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">關於MyCard</string>
+    <string name="plus">plus</string>
+    <string name="title_activity_item">新增名片</string>
+    <string name="title_activity_home">  </string>
+    <string name="english">English</string>
+    <string name="chinese">中文</string>
+    <string name="enter">確定</string>
+    <string name="cancel">取消</string>
+    <string name="kindOf">類別</string>
+    <string name="shop">商店</string>
+    <string name="company">公司</string>
+    <string name="mytype_prompt">Choose a type</string>
+    <string-array name="mytypes_array">
+        <item>Choose a type</item>
+        <item>Shop</item>
+        <item>Company</item>
+        <item>Others</item>
+    </string-array>
+    
+	<string name="sentence1">MyCard 是個多功能的名片收集器</string>
+    <string name="sentence2">不需留著一堆餐廳或是公司的名片</string>
+    <string name="sentence3">只要有  MyCard 就能輕鬆記錄!!</string>
+</resources>
